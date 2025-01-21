@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXSlider?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" stylesheets="@../css/Slider.css" xmlns="http://javafx.com/javafx/23.0.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.ufrpe.n8queens.controller.BoardController">
+   <VBox>
+      <HBox>
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+      </HBox>
+      <HBox>
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+      </HBox>
+      <HBox>
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+      </HBox>
+      <HBox>
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+      </HBox>
+      <HBox>
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+      </HBox>
+      <HBox>
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+      </HBox>
+      <HBox>
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+      </HBox>
+      <HBox>
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: white;" />
+         <Pane prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: black;" />
+      </HBox>
+      <HBox alignment="CENTER" styleClass="axis">
+         <VBox.margin>
+            <Insets bottom="16.0" top="16.0" />
+         </VBox.margin>
+         <MFXSlider id="customSlider" fx:id="customSlider" enableKeyboard="false" max="2000.0" min="100.0" prefHeight="50.0" prefWidth="400.0" sliderMode="SNAP_TO_TICKS" tickUnit="100.0" value="1000.0">
+            <HBox.margin>
+               <Insets right="16.0" />
+            </HBox.margin>
+         </MFXSlider>
+         <MFXButton fx:id="searchButton" onAction="#SearchSolution" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #0d6efd; -fx-text-fill: white;" text="Search" textAlignment="CENTER">
+            <HBox.margin>
+               <Insets left="16.0" />
+            </HBox.margin>
+            <font>
+               <Font name="SansSerif Bold" size="16.0" />
+            </font>
+         </MFXButton>
+      </HBox>
+   </VBox>
+   <Pane fx:id="pane" prefHeight="640.0" prefWidth="640.0" />
+</AnchorPane>

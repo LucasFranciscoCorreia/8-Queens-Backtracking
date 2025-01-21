@@ -1,0 +1,23 @@
+@import "Common.css";
+@import "MFXColors.css";
+#customSlider:range1 .thumb,
+#customSlider:range1 .track{
+    -mfx-color: -mfx-blue;
+    -fx-fill: derive(-mfx-blue, 85%)
+}
+
+#customSlider:range1 .bar {
+    -fx-fill: -mfx-blue;
+}
+
+#customSlider:range1 .thumb-container:hover .thumb-radius,
+#customSlider:range1 .thumb-container:pressed .thumb-radius {
+    -mfx-color: -mfx-blue;
+    -fx-fill: derive(-mfx-blue, 85%);
+    -fx-opacity: 0.5;
+}
+
+#customSlider:range1 .thumb-container .mfx-ripple-generator {
+    -mfx-ripple-color: -mfx-blue;
+}
+
