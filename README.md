@@ -34,7 +34,7 @@ java -jar n8queens.jar
 
 <div align="center">
 
-![8queens]()
+![8queens](https://github.com/LucasFranciscoCorreia/8-Queens-Backtracking/blob/master/readme/n8queens.gif?raw=true)
 
 </div>
 
